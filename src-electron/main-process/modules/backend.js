@@ -295,7 +295,7 @@ export class Backend {
           const baseUrl =
             net_type === "testnet"
               ? "https://lokitestnet.com"
-              : "https://lokiblocks.com";
+              : "https://oxen.observer";
           const url = `${baseUrl}/${path}/`;
           require("electron").shell.openExternal(url + params.id);
         }
